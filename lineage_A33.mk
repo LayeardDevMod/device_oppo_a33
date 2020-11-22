@@ -20,7 +20,7 @@ $(call inherit-product, device/oppo/A33/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := a33f,A33f,A33fw,a33fw,msm8916,msm8939
+TARGET_OTA_ASSERT_DEVICE := A33f
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
